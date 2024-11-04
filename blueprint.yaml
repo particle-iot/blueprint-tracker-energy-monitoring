@@ -1,0 +1,21 @@
+id: particle/blueprint-tracker-energy-monitoring
+category: tutorial
+icon: particle.png
+gitrepo: https://github.com/particle-iot/blueprint-tracker-energy-monitoring
+name: blueprint-tracker-energy-monitoring
+shortDescription: Measuring energy consumption using the Tracker One
+version: 1.0.0
+models: []
+language:
+  - C++
+cloudServices: []
+integrations:
+  - qcom-aware
+hardwareDependencies:
+  - name: Tracker One
+    link: https://www.particle.io/tracker-one/
+  - name: Particle T-SoM Module
+    link: https://www.particle.io/tracker-som/
+description: |
+  This tutorial shows how to measure AC current using the Tracker One and a few external components. 
+
