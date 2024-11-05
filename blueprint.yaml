@@ -2,8 +2,8 @@ id: particle/blueprint-tracker-energy-monitoring
 category: tutorial
 icon: particle.png
 gitrepo: https://github.com/particle-iot/blueprint-tracker-energy-monitoring
-name: blueprint-tracker-energy-monitoring
-shortDescription: Measuring energy consumption using the Tracker One
+name: "Tracker energy monitoring"
+shortDescription: Measuring AC current with Tracker One and external components
 version: 1.0.0
 models: []
 language:
@@ -18,5 +18,8 @@ hardwareDependencies:
     link: https://www.particle.io/tracker-som/
     tags: [ "T-SoM" ]
 description: |
-  This tutorial shows how to measure AC current using the Tracker One and a few external components. 
+  This project demonstrates how to measure AC current using the Tracker One, an M8 cable, and an analog AC current sensor. The sensor's output is connected to the Tracker One’s A3 pin through a DC/DC converter, which steps down the 5V Tracker output to 3.3V for safe input levels. This setup enables real-time current monitoring for energy tracking applications.
 
+  The software reads analog data from the sensor and converts it into current measurements based on the sensor's calibration data. The current reading is embedded in each location publish, allowing for easy monitoring of energy usage on the Particle console map alongside device location.
+
+  Ideal for energy management, this solution provides a simple way to integrate current sensing into Tracker-based projects, opening up possibilities for tracking power consumption in remote or mobile deployments.
