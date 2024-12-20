@@ -19,6 +19,8 @@ supportedDevices:
     link: https://www.particle.io/tracker-som/
 hardwareDependencies:
   - name: Supported device
+  - name: M8 cable
+  - name: Analog AC current sensor
 introduction: |
   This tutorial shows how to measure AC current using the Tracker One and a few external components.
 description: |
