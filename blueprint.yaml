@@ -6,7 +6,7 @@ tags: ["Tracker", "Sensors", "Industrial", "Current", "Energy"]
 icon: assets/tracker-energy-monitoring.svg
 gitrepo: https://github.com/particle-iot/blueprint-tracker-energy-monitoring
 name: "Tracker energy monitoring"
-shortDescription: Measuring AC current with Tracker One and external components
+shortDescription: "Measuring AC current with Tracker One and external components."
 version: 1.0.0
 models: []
 language: ["C++"]
