@@ -1,8 +1,8 @@
 slug: particle-blueprint-tracker-energy-monitoring
 type: Tutorial
-category: "Sensors and data collection"
+category: "Tracker projects"
 expertiseLevel: "Beginner"
-tags: ["Tracker", "Sensors", "Industrial", "Current", "Energy"]
+tags: ["Tracker", "Sensors", "Industrial"]
 icon: assets/tracker-energy-monitoring.svg
 gitrepo: https://github.com/particle-iot/blueprint-tracker-energy-monitoring
 name: "Tracker energy monitoring"
